@@ -1,0 +1,29 @@
+{
+    "report_name": "report.docx",
+    "assessment": "assessment",
+    "library": "core/library.xlsx",
+    "template": "template/template.docx",
+    "components": {
+        "A": "System A",
+        "B": "System B"
+    },
+    "report_configuration": {
+        "company_name": "ABC"
+    },
+    "group": ["Affected File(s)", "Line(s)", "Snippet"],
+    "format": ["Example", "Recommendation", "Reference(s)"],
+    "risk_matrix": {
+        "risk": {
+            "priority": 1,
+            "order": ["Critical", "High", "Medium", "Low", "Informational"]
+        },
+        "likelihood": {
+            "priority": 2,
+            "order": ["Imminent", "Probable", "Possible", "Unlikely", "Unrealistic"]
+        },
+        "consequence": {
+            "priority": 3,
+            "order": ["Severe", "Major", "Moderate", "Minor", "Negligible"]
+        }
+    }
+}
